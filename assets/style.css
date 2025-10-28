@@ -1,0 +1,56 @@
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background: #1f1f1f !important;
+    border-bottom: 1px solid #333;
+}
+
+.card {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    color: #e0e0e0;
+}
+
+.btn-primary {
+    background: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0b5ed7;
+}
+
+.btn-success { background: #198754; }
+.btn-danger { background: #dc3545; }
+
+.form-control, .form-select {
+    background: #2c2c2c;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-control:focus {
+    background: #333;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.table {
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.table th {
+    background: #2c2c2c;
+    border-color: #444;
+}
+
+a { color: #0d6efd; }
+a:hover { color: #0b5ed7; }
+
+.badge-success { background: #198754; }
+.badge-pending { background: #ffc107; color: #000; }
